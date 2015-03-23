@@ -1,0 +1,11 @@
+////////////////////////
+//// base / general ////
+////////////////////////
+
+html {
+  box-sizing: $base-box-sizing;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}

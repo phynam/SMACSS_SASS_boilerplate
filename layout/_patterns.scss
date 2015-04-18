@@ -6,7 +6,7 @@
   @include cf();
   list-style: none;
 
-  & > li {
+  & > * {
     float: left;
   }
 }
@@ -16,8 +16,19 @@
   width: 100%;
   table-layout: fixed;
 
-  & > li {
+  & > * {
     display: table-cell;
+  }
+}
+
+.l-v-center {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  & > * {
+    display: table-cell;
+    text-align: middle;
   }
 }
 

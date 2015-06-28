@@ -2,8 +2,21 @@
 //// utility / variables ////
 /////////////////////////////
 
-// Font sizes
-$body-font-size: 16px;
+// Measurements
+$base-scale: 1.6;
+
+// Font stacks
+$helvetica: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+// Typography
+$base-font-size: 16px;
+$base-font-weight: 400;
+$base-font-color: #333;
+$base-font-stack: $helvetica;
+$base-line-height: round($base-font-size * $base-scale);
+
+// Units
+$v-measure: $base-font-size * $base-scale;
 
 // Box sizing
 $base-box-sizing: border-box;

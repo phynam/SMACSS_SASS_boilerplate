@@ -3,7 +3,7 @@
 ///////////////////////////
 
 .l-grid {
-  @include cf();
+  @include clearfix();
   list-style: none;
 
   & > * {

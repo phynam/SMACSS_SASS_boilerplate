@@ -1,0 +1,30 @@
+///////////////////////
+//// Grid settings ////
+///////////////////////
+
+// Number of columns in the grid.
+$grid-columns: 12 !default;
+
+// Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width: 50px !default;
+
+// [ additional ] Set to allow one maximum width, without stepwise container widths being set at different breakpoints.
+$container-smooth: true !default;
+
+////////////////////////////
+//// Container settings ////
+////////////////////////////
+
+// [ additional ] Define the maximum width of `.container` when smooth is set.
+$container-smooth-max: ($screen-lg-min) !default;
+
+// Else define the maximum width of `.container` for different screen sizes.
+
+// For `$screen-sm-min` and up.
+$container-sm: ($screen-sm-min) !default;
+
+// For `$screen-md-min` and up.
+$container-md: ($screen-md-min) !default;
+
+// For `$screen-lg-min` and up.
+$container-lg: ($screen-lg-min) !default;

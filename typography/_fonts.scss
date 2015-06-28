@@ -1,3 +1,7 @@
 ////////////////////////////
 //// typography / fonts ////
 ////////////////////////////
+
+body {
+  @include rems(font-size, $body-font-size);
+}

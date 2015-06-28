@@ -10,21 +10,47 @@ body {
   line-height: $base-line-height;
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: $header-font-stack;
+  font-weight: $base-font-weight;
+}
+
 h1, .h1 {
-
+  font-size: ($base-scale * 10 * 4) + px;
 }
+
 h2, .h2 {
-
+  font-size: ($base-scale * 10 * 3) + px;
 }
+
 h3, .h3 {
-
+  font-size: ($base-scale * 10 * 2) + px;
 }
+
 h4, .h4 {
-
+  font-size: $base-font-size;
 }
+
 h5, .h5 {
-
+  font-size: $base-font-size;
 }
-h6, .h6 {
 
+// Suggested starting values
+h1, .h1, h2, .h2 {
+  line-height: 1;
+  margin: 0 0 $v-measure;
+}
+
+h3, .h3 {
+  margin: 0 0 ($v-measure / 2);
+}
+
+h4, .h4, h5, .h5 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 ($v-measure / 2);
 }

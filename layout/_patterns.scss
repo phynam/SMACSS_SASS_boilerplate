@@ -11,27 +11,6 @@
   }
 }
 
-%col {
-  &:last-child {
-    float: right;
-  }
-}
-
-.l-col-4 {
-  @extend %col;
-  width: 25%;
-}
-
-.l-col-3 {
-  @extend %col;
-  width: 33.3%;
-}
-
-.l-col-2 {
-  @extend %col;
-  width: 50%;
-}
-
 .l-spread {
   display: table;
   width: 100%;

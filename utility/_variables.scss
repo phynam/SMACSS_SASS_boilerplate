@@ -13,7 +13,10 @@ $base-font-size: 16px;
 $base-font-weight: 400;
 $base-font-color: #333;
 $base-font-stack: $helvetica;
-$base-line-height: round($base-font-size * $base-scale);
+$base-line-height: $base-scale;
+
+$header-font-stack: $helvetica;
+$header-font-weight: 700;
 
 // Units
 $v-measure: $base-font-size * $base-scale;

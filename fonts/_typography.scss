@@ -1,9 +1,9 @@
-////////////////////////////
-//// typography / fonts ////
-////////////////////////////
+/**
+ * _typography.scss
+ **/
 
 body {
-  @include rems(font-size, $base-font-size);
+  font-size: $base-font-size;
   color: $base-font-color;
   font-family: $base-font-stack;
   font-weight: $base-font-weight;
@@ -33,24 +33,4 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: $base-font-size;
-}
-
-// Suggested starting values
-h1, .h1, h2, .h2 {
-  line-height: 1;
-  margin: 0 0 $v-measure;
-}
-
-h3, .h3 {
-  margin: 0 0 ($v-measure / 2);
-}
-
-h4, .h4, h5, .h5 {
-  margin: 0;
-  font-size: 100%;
-  font-weight: bold;
-}
-
-p {
-  margin: 0 0 ($v-measure / 2);
 }

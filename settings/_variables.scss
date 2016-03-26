@@ -1,6 +1,6 @@
-/////////////////////////////
-//// utility / variables ////
-/////////////////////////////
+/**
+ * _variables.scss
+ **/
 
 // Measurements
 $base-scale: 1.6;
@@ -9,7 +9,7 @@ $base-scale: 1.6;
 $helvetica: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 // Typography
-$base-font-size: 16px;
+$base-font-size: 1.6rem;
 $base-font-weight: 400;
 $base-font-color: #333;
 $base-font-stack: $helvetica;

@@ -1,15 +1,6 @@
-///////////////////////////
-//// layout / patterns ////
-///////////////////////////
-
-.l-grid {
-  @include clearfix();
-  list-style: none;
-
-  & > * {
-    float: left;
-  }
-}
+/**
+ * _patterns.scss
+ **/
 
 .l-spread {
   display: table;
@@ -22,20 +13,7 @@
 }
 
 .l-v-center {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-
-  & > * {
-    display: table-cell;
-    vertical-align: middle;
-  }
-}
-
-.l-pull-left {
-  float: left;
-}
-
-.l-pull-right {
-  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }

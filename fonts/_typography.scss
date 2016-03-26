@@ -16,15 +16,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-  font-size: ($base-scale * 10 * 4) + px;
+  font-size: ($base-scale * 4) + rem;
 }
 
 h2, .h2 {
-  font-size: ($base-scale * 10 * 3) + px;
+  font-size: ($base-scale * 3) + rem;
 }
 
 h3, .h3 {
-  font-size: ($base-scale * 10 * 2) + px;
+  font-size: ($base-scale * 2) + rem;
 }
 
 h4, .h4 {
